@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.site{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(241, 235, 235);
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+nav img{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.href a{
+    color: #FF7D41;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    /* position: absolute; */
+}
+.href a:hover{
+    color: black;
+}
+.href li{
+    transform: translate(-40px);
+}
+
+.href{
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.nav ul{
+    text-transform: none;
+}
+.app button{
+    margin-left: 70px;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 18px;
+    background-color: #FF7D41;
+    color: white;
+    border: none;
+    position: absolute;
+}
+.app button:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+.sarlavha{
+    width: 100%;
+    /* height: 500px; */
+    /* background-image: url('./img/88241778_699485670793608_8162130736644620288_n.png '); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 1305px; */
+    transform: translate(0px, -20px);
+}
+.p{
+    color: #FF7D41;
+    border-radius: 100%;
+}
+.cu_img{
+    width: 1400px;
+    height: 790px;
+}
+.world{
+    display: flex;
+    margin-top: 300px;
+}
+.world img{
+    width:600px;
+    margin-left: 80px;
+}
+.world_t{
+    margin-top: 130px;
+}
+.world_t a{
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #FF7D41;
+}
+.dunyo div:nth-child(2){
+    margin-left: 40px;
+}
+.dunyo div:nth-child(3){
+    margin-left: 40px;
+}
+.world_t p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.about{
+    width: 100%;
+    height: 600px;
+    background-color: #FF7D41;
+    color: white;
+}
+.about img{
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.car{
+    padding: 100px;
+}
+.car_img{
+    margin-left: 100px;
+}
+.car_m{
+    transform: translate(0px,-70px);
+}
+.ishonch{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 100px;
+}
+.ishonch img{
+    width: 200px;
+}
+.ish{
+    text-align: center;
+    color: #FF7D41;
+}
+.btnlar{
+    text-align: center;
+    margin-top: 30px;
+}
+.btnlar button:nth-child(1){
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #FF7D41;
+    font-weight: 700;
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+}
+.btnlar button:nth-child(2){
+    width: 200px;
+    font-weight: 700;
+    height: 50px;
+    background-color: #FF7D41;
+    transform: translate(-5px);
+    border: 2px solid black;
+    border-left: none;
+    color: white;
+    border-bottom-right-radius: 30px;
+}
+.foyda{
+    display: flex;
+    text-align: center;
+    transform: translate(0px,80px);
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.foyda p{
+    max-width: 400px;
+}
+.foyda div{
+    margin: 0 auto;
+}
+.foyda2{
+    display: flex;
+    text-align: center;
+    transform: translate(0px,80px);
+    width: 100%;
+    margin: 0 auto;
+    visibility: hidden;
+    /* transition: 1s; */
+}
+.foyda2 p{
+    max-width: 400px;
+}
+.foyda2 div{
+    margin: 0 auto;
+}
+.sing{
+    width: 100%;
+    height: 700px;
+    background-color: #FF7D41;
+    text-align: center;
+    color: white;
+}
+.sing h1{
+    padding-top: 80px;
+}
+form{
+    text-align: center;
+}
+form input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid grey;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    text-indent: 20px;
+}
+textarea{
+    width: 600px;
+    border-radius: 30px;
+    transform: translate(0px, 20px);
+    text-indent: 30px;
+    padding-top: 10px;
+}
+form button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #FF7D41;
+    background-color: white;
+    border: none;
+}
+.stop{
+    width: 100%;
+    height: 330px;
+    background-color: #0F1419;
+    border-top: 5px solid white;
+    padding: 100px;
+}
+.stop a{
+    color: #EAB308;
+    text-decoration: none;
+}
+.stop p{
+    color: white;
+}
+.yuklash{
+    margin-left: 370px;
+    margin-top: 20px;
+}
+@media (max-width:1300px) {
+    .href a{
+        font-size: 18px;
+    }
+    /* .sarlavha{
+        width: 1300px;
+        height: 700px;
+        background-image: url('./img/88241778_699485670793608_8162130736644620288_n.png ');
+        background-repeat: no-repeat;
+        background-size: 1300px;
+        transform: translate(0px, -20px);
+    } */
+    .cu_img{
+        width: 1380px;
+        height: 700px;
+    }
+    .app button{
+        width: 150px;
+    }
+    nav{
+        width: 1300px;
+    }
+    .btnlar{
+        margin-left: 20px;
+    }
+}
+@media (max-width:1200px) {
+    .btnlar{
+        margin-left: 25px;
+    }
+    .href a{
+        font-size: 15px;
+    }
+    .yer{
+        width: 300px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .about img{
+        width: 340px;
+    }
+    .ishonch img{
+        width: 150px;
+    }
+    .ishonch h3{
+        font-size: 18px;
+    }
+    .ishonch p{
+        font-size: 13px;
+        max-width: 200px;
+    }
+    .app button{
+        visibility: hidden;
+    }
+
+}
+@media (max-width:1000px) {
+    .btnlar{
+        margin-left: 20px;
+    }
+    .href a{
+        font-size: 12px;
+    }
+    .app button{
+        visibility: hidden;
+    }
+    .yer{
+        width: 300px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .about img{
+        width: 250px;
+        margin-top: 150px;
+    }
+    .ishonch img{
+        width: 150px;
+    }
+    .ishonch h3{
+        font-size: 18px;
+    }
+    .ishonch p{
+        font-size: 13px;
+        max-width: 200px;
+    }
+    .cu_img{
+        width: 1000px;
+        height: 600px;
+    }
+    .yer{
+        visibility: hidden;
+    }
+    .world{
+        position: absolute;
+        transform: translate(0px ,-400px);
+        margin-left: 40px;
+    }
+    .about{
+        margin-top: 500px;
+    }
+    .world_t{
+        text-align: center;
+        position: absolute;
+        margin-left: 220px;
+    }
+    .eds p{
+      font-size: 12px;
+      margin-left: 20px;
+    }
+    .yuklash img{
+        width: 150px;
+    }
+}
+@media (max-width:700px) {
+    .btnlar{
+        margin-left: 20px;
+    }
+    .href a{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .app button{
+        visibility: hidden;
+    }
+    .yer{
+        width: 300px;
+    }
+    .about p{
+        font-size: 7px;
+    }
+    .about{
+        width: 100%;
+        height: 400px;
+    }
+    .about img{
+        width: 140px;
+        margin-top: 100px;
+    }
+    .foyda2{
+        margin-top: 120px;
+    }
+    .ishonch img{
+        width: 100px;
+    }
+    .ishonch h3{
+        font-size: 12px;
+    }
+    .ishonch p{
+        font-size: 10px;
+        max-width: 200px;
+    }
+    .ishonch{
+        height: 400px;
+    }
+    .cu_img{
+        width: 700px;
+        height: 400px;
+    }
+    .about{
+        margin-top: 400px;
+    }
+    .yer{
+        visibility: hidden;
+    }
+    .world_t{
+        text-align: center;
+        position: absolute;
+        margin-left: 50px;
+        transform: translate(0px, -380px);
+        font-size: 15px;
+    }
+    .world{
+        transform: translate(0px, -00px);
+    }
+    form input{
+        width: 250px;
+    }
+    form textarea{
+        width: 500px;
+    }
+    .world_t p{
+        font-size: 15px;
+    }
+    .world_t h1{
+        font-size: 20px;
+    }
+    .world{
+        /* height: 100px; */
+        position: absolute;
+    }
+    .eds p{
+      font-size: 12px;
+      margin-left: 20px;
+    }
+    .yuklash img{
+        width: 150px;
+        transform: translate(-200px);
+        position: absolute;
+    }
+}
